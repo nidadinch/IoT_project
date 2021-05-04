@@ -8,9 +8,9 @@ gcc -Wall -pthread -o DHTXXD test_DHTXXD.c DHTXXD.c -lpigpiod_if2
 
 TO RUN
 
-./DHTXXD -g17 # one reading from DHT connected to GPIO 17
+./DHTXXD -g18 # one reading from DHT connected to GPIO 17
 
-./DHTXXD -g14 -i3 # read DHT connected to GPIO 14 every 3 seconds
+./DHTXXD -g18 -i5 # read DHT connected to GPIO 14 every 3 seconds
 
 DHTXXD returns three values.  A status, the temperature, and the
 humidity.  The status is one of the following.  0 (good)
