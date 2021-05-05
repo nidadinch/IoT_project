@@ -15,7 +15,7 @@ It is a project for Akdeniz University Computer Science Department - Internet of
 * Raspberry pi Zero
 * DHT-11
 
-[![Home Page](https://github.com/nidadinch/IoT_project/blob/master/homepage.png)](https://github.com/nidadinch/IoT_project/blob/master/homepage.png)
+[![Home Page](https://github.com/nidadinch/IoT_project/blob/main/homepage.png)](https://github.com/nidadinch/IoT_project/blob/main/homepage.png)
 
    
 ## Contributing
