@@ -1,4 +1,7 @@
 
+// @author Nida Dinç
+// I have used express to avoid CORS error
+
 const express = require('express');
 const request = require('request');
 
@@ -22,6 +25,7 @@ app.get('/iot/updatedData', (req, res) => {
      (error, response, body) => {
       if (error || response.statusCode !== 200) {
         return res.status(500);
+        // If an error generates try again
         request();
       }
 
