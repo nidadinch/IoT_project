@@ -3,25 +3,25 @@
     <notifications></notifications>
 
     <side-bar
-        :sidebar-item-color="sidebarBackground"
-        :sidebar-background-image="sidebarBackgroundImage"
+      :sidebar-item-color="sidebarBackground"
+      :sidebar-background-image="sidebarBackgroundImage"
     >
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>home</md-icon>
-        <p>Anasayfa</p>
+        <p>Home</p>
       </sidebar-link>
       <sidebar-link to="/notifications">
         <md-icon>show_chart</md-icon>
-        <p>Grafik</p>
+        <p>Graph</p>
       </sidebar-link>
       <sidebar-link to="/maps">
         <md-icon>notifications</md-icon>
-        <p>Bildirimler</p>
+        <p>Notifications</p>
       </sidebar-link>
       <sidebar-link to="/table">
         <md-icon>content_paste</md-icon>
-        <p>Sensörler</p>
+        <p>Sensors</p>
       </sidebar-link>
       <!--   <sidebar-link to="/typography">
            <md-icon>settings</md-icon>
@@ -35,15 +35,14 @@
            <md-icon>public</md-icon>
            <p>Ağ</p>
          </sidebar-link> -->
-
     </side-bar>
 
     <div class="main-panel">
       <top-navbar></top-navbar>
 
       <fixed-plugin
-          :color.sync="sidebarBackground"
-          :image.sync="sidebarBackgroundImage"
+        :color.sync="sidebarBackground"
+        :image.sync="sidebarBackgroundImage"
       >
       </fixed-plugin>
 
