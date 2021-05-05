@@ -11,7 +11,7 @@ count=0
 while True:
     result= instance.read()
     if result.is_valid():
-        print("Temp: %d C" % result.temperature + ' '+"Humidity: %d %%" % result.humidity)
+        print("Temperature: %d C" % result.temperature + ' '+"Humidity: %d %%" % result.humidity)
         count+=1
         time.sleep(3)
         

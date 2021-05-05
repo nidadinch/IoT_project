@@ -1,4 +1,3 @@
-# we need adafruit_dht, flask, flask-restful
 
 try:
     from flask import Flask
@@ -17,6 +16,7 @@ except Exception as e:
 app = Flask(__name__)
 api = Api(app)
 
+# I have connected to GPIO 17 pin
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 instance = dht11.DHT11(pin=17)
