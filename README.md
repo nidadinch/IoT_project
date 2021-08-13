@@ -1,9 +1,9 @@
-# IoT_project
+# Internet of Things - Growell Monitorize and Alarm Application
 
 
 ## About The Project
 
-It is a project for Akdeniz University Computer Science Department - Internet of Things Lesson.
+It is a project for Akdeniz University Computer Science Department - Internet of Things Lesson. Main purpose is getting humidity & temperature mesaurements from DHT-11 sensor via Raspberry Pi Zero and displaying it on our Vue app. We have also a machine learning model for weather prediction and alarms.
 
 
 ### Built With 
